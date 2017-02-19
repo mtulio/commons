@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(name='commons',
       version='0.1.0',
@@ -8,5 +8,5 @@ setup(name='commons',
       author='Marco Tulio R Braga',
       author_email='braga@mtulio.eng.br',
       url='https://github.com/mtulio/common',
-      packages=['distutils'],
+      #packages=['distutils'],
      )
